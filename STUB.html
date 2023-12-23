@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="STUB.css">
+    <script src="STUB.js" defer></script>
+    <title>Stäbchen</title>
+  </head>
+  <body>
+    <!-- St header-->
+    <header>
+    <nav class ="menu">
+      <ul class= "Desktop-nav">
+      <li class="titleandicon ">
+        <img class="lang_pic" src="../Assets/stabbz.png" alt="Teller" width="80" height="60">
+          <a href="#" class = "title"><h1 class ="STitle" >Stäbchen</h1><a>
+          </li>
+              <li class= "menuItemsV"><a href= "#" class="menuItems"><h1 class= "MenuVegan">Vegan</h1></a> </li>
+              <li class= "menuItemsVe"><a href= "#" class="menuItems"><h1 class ="MenuVege">Vegetarisch</h1></a> </li>
+          <li class="search">
+           <img class="search_pic" src="../Assets/nsf.png" alt="Teller" class="SearchIcon" width="35" height="30">
+            <input class="search"  type="search" placeholder="Suche...">
+            <!--
+            make the placeholder go away when the user clicks on the search bar
+          change how big the bar gets at the diffrent break points
+          -->
+          </li>
+          <li class="lang" class ="dropDown">
+          <img class="lang_pic " src="../Assets/DF.png" alt="Teller" width="25" height="25">
+          <h3><a>DE|EN</a></h3>
+          </li>
+
+      </ul>
+    </nav>
+    </header>
+
+    <h1 class="body-title"> Beliebt</h1>
+    <!--karasel-->
+<!-- have the picture be the background and have the title,Food type, stars,total cook time ,prep time and maybe the Beschribung-->
+<div id="myCarousel" class="carousel  slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+</div>
+<div class="carousel-inner">
+    <div class ="carousel-item active">
+      <div class="imgBox">
+        <img class="backhroundImg d-block w-100" src="../Assets/kochen.jpg">
+      </div>
+      <div class="container">
+        <h2> Dish Name</h2>
+        <h5> Vegan/Vegetarian</h5>
+        <div class= "sideInfo">
+        <h4>prep time: x</h4>
+        <h4>cook time: x</h4>
+        <h4>total time: x</h4>
+        <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+        </div>
+      </div>
+  </div>
+  <div class ="carousel-item">
+    <div class="imgBox">
+      <img class="backhroundImg d-block w-100" src="../Assets/bowl.jpg">
+    </div>
+    <div class="container">
+      <h2> Dish Name</h2>
+      <h5> Vegan/Vegetarian</h5>
+      <div class= "sideInfo">
+        <h4>prep time: x</h4>
+        <h4>cook time: x</h4>
+        <h4>total time: x</h4>
+      <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+      </div>
+    </div>
+</div>
+<div class ="carousel-item">
+  <div class="imgBox">
+    <img class="backhroundImg d-block w-100" src="../Assets/lost.jpg">
+  </div>
+  <div class="container">
+    <h2> Dish Name</h2>
+    <h5> Vegan/Vegetarian</h5>
+    <div class= "sideInfo">
+      <h4>prep time: x</h4>
+      <h4>cook time: x</h4>
+      <h4>total time: x</h4>
+    <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+    </div>
+  </div>
+</div>
+<div class ="carousel-item">
+  <div class="imgBox">
+    <img class="backhroundImg d-block w-100" src="../Assets/sushi.jpg">
+  </div>
+  <div class="container">
+    <h2> Dish Name</h2>
+    <h5> Vegan/Vegetarian</h5>
+    <div class= "sideInfo">
+      <h4>prep time: x</h4>
+      <h4>cook time: x</h4>
+      <h4>total time: x</h4>
+    <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+    </div>
+  </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<hr class="sectionBreak">
+  <!-- start of the card section-->
+<h1 class="body-title">Karten</h1>
+  <div class= "Act-Cards">
+    <div class= "Card">
+      <img class="backhroundImg" src="../Assets/Essen.jpg">
+      <div class="card-blur "></div>
+      <h1 class= "Card-text Card-pic"> Doppelgänger</h1>
+    </div>
+    <div class= "Card">
+      <img class="backhroundImg" src="../Assets/pizza.jpg">
+      <div   class="card-blur "></div>
+      <h1 class= "Card-text Card-pic"> Haben Sie Hunger?</h1>
+    </div>
+    <div class= "Card">
+      <img class="backhroundImg" src="../Assets/MP.jpg">
+      <div   class="card-blur "></div>
+      <h1 class= "Card-text Card-pic"> Meal Prep</h1>
+    </div>
+    <div class= "Card">
+      <img class="backhroundImg" src="../Assets/cheese.jpg">
+      <div  class="card-blur "></div>
+      <h1 class= "Card-text Card-pic"> Käse: Mehr ist mehr</h1>
+    </div>
+    <div class= "Card">
+      <img class="backhroundImg" src="../Assets/sosse.jpg">
+      <div   class="card-blur ">
+      </div>
+  <h1 class= "Card-text Card-pic"> Soße und sonstige Rezpten</h1>
+  </div>
+    <div class= "Card">
+      <img class="backhroundImg" src="../Assets/BK.jpg">
+      <div class="card-blur "></div>
+      <h1 class= "Card-text Card-pic"> Heiliger BlumenKohl</h1>
+    </div>
+  </div>
+  <hr class="sectionBreak">
+  <!-- end of the Karten Abschintt-->
+
+<h1 class="rTitle">Entdecken</h1>
+  <br>
+    <!-- Breakfrast-->
+  <h1 class="rSubtitle">Frühstuck</H1>
+    <div class ="rGrid">
+    <div class= "rCard">
+      <img class ="rPic" src="../Assets/MP.jpg" alt="rPic one">
+      <div class ="rMainText">
+        <div class="rMaintextTitle">
+        <h5>Vegan<h5>
+        <h3>Some Bowl</h3>
+      </div>
+        <P class="rMTT">
+          orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+             deserunt mollit anim id est laborum
+       </p>
+       <div class="rBInfo">
+       <div class="rButton">
+         <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+       </div>
+       <div class= "rInfo">
+         <h4 class="f200">prep time: x</h4>
+         <h4 class="f200">cook time: x</h4>
+         <h4 class="f200">total time: x</h4>
+       <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+       </div>
+      </div>
+    </div>
+    </div>
+    <div class= "rCard">
+      <img class ="rPic" src="../Assets/sosse.jpg" alt="rPic one">
+      <div class ="rMainText">
+        <div class="rMaintextTitle">
+        <h5>Vegan<h5>
+        <h3>Some Bowl</h3>
+      </div>
+        <P class="rMTT">
+          orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+             deserunt mollit anim id est laborum
+       </p>
+       <div class="rBInfo">
+       <div class="rButton">
+         <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+       </div>
+       <div class= "rInfo">
+         <h4 class="f200">prep time: x</h4>
+         <h4 class="f200">cook time: x</h4>
+         <h4 class="f200">total time: x</h4>
+       <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+       </div>
+      </div>
+    </div>
+    </div>
+     <div class= "rCard">
+        <img class ="rPic" src="../Assets/cheese.jpg" alt="rPic one">
+        <div class ="rMainText">
+          <div class="rMaintextTitle">
+          <h5>Vegan<h5>
+          <h3 >Some Bowl</h3>
+        </div>
+          <P class="rMTT">
+            orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+               deserunt mollit anim id est laborum
+         </p>
+         <div class="rBInfo">
+         <div class="rButton">
+           <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+         </div>
+         <div class= "rInfo">
+           <h4 class="f200">prep time: x</h4>
+           <h4 class="f200">cook time: x</h4>
+           <h4 class="f200">total time: x</h4>
+         <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+         </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      <p class="rLink"> Klicken Sie hier um alle Rezpten zu sehen><p>
+
+<!--Vorspeisen und Nebengerichten-->
+<h1 class="rSubtitle">Vorspeisen und Nebengerichten</H1>
+  <div class ="rGrid">
+  <div class= "rCard">
+    <img class ="rPic" src="../Assets/MP.jpg" alt="rPic one">
+    <div class ="rMainText">
+      <div class="rMaintextTitle">
+      <h5>Vegan<h5>
+      <h3>Some Bowl</h3>
+    </div>
+      <P class="rMTT">
+        orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+           deserunt mollit anim id est laborum
+     </p>
+     <div class="rBInfo">
+     <div class="rButton">
+       <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+     </div>
+     <div class= "rInfo">
+       <h4 class="f200">prep time: x</h4>
+       <h4 class="f200">cook time: x</h4>
+       <h4 class="f200">total time: x</h4>
+     <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+     </div>
+    </div>
+  </div>
+  </div>
+  <div class= "rCard">
+    <img class ="rPic" src="../Assets/sosse.jpg" alt="rPic one">
+    <div class ="rMainText">
+      <div class="rMaintextTitle">
+      <h5>Vegan<h5>
+      <h3>Some Bowl</h3>
+    </div>
+      <P class="rMTT">
+        orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+           deserunt mollit anim id est laborum
+     </p>
+     <div class="rBInfo">
+     <div class="rButton">
+       <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+     </div>
+     <div class= "rInfo">
+       <h4 class="f200">prep time: x</h4>
+       <h4 class="f200">cook time: x</h4>
+       <h4 class="f200">total time: x</h4>
+     <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+     </div>
+    </div>
+  </div>
+  </div>
+   <div class= "rCard">
+      <img class ="rPic" src="../Assets/cheese.jpg" alt="rPic one">
+      <div class ="rMainText">
+        <div class="rMaintextTitle">
+        <h5>Vegan<h5>
+        <h3 >Some Bowl</h3>
+      </div>
+        <P class="rMTT">
+          orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+             deserunt mollit anim id est laborum
+       </p>
+       <div class="rBInfo">
+       <div class="rButton">
+         <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+       </div>
+       <div class= "rInfo">
+         <h4 class="f200">prep time: x</h4>
+         <h4 class="f200">cook time: x</h4>
+         <h4 class="f200">total time: x</h4>
+       <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+       </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <p class="rLink"> Klicken Sie hier um alle Rezpten zu sehen><p>
+
+<!--Abendessen und Mittagessen Rezpten-->
+<h1 class="rSubtitle">Abendessen und Mittagessen Rezpten</H1>
+  <div class ="rGrid">
+  <div class= "rCard">
+    <img class ="rPic" src="../Assets/MP.jpg" alt="rPic one">
+    <div class ="rMainText">
+      <div class="rMaintextTitle">
+      <h5>Vegan<h5>
+      <h3>Some Bowl</h3>
+    </div>
+      <P class="rMTT">
+        orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+           deserunt mollit anim id est laborum
+     </p>
+     <div class="rBInfo">
+     <div class="rButton">
+       <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+     </div>
+     <div class= "rInfo">
+       <h4 class="f200">prep time: x</h4>
+       <h4 class="f200">cook time: x</h4>
+       <h4 class="f200">total time: x</h4>
+     <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+     </div>
+    </div>
+  </div>
+  </div>
+  <div class= "rCard">
+    <img class ="rPic" src="../Assets/sosse.jpg" alt="rPic one">
+    <div class ="rMainText">
+      <div class="rMaintextTitle">
+      <h5>Vegan<h5>
+      <h3>Some Bowl</h3>
+    </div>
+      <P class="rMTT">
+        orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+           deserunt mollit anim id est laborum
+     </p>
+     <div class="rBInfo">
+     <div class="rButton">
+       <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+     </div>
+     <div class= "rInfo">
+       <h4 class="f200">prep time: x</h4>
+       <h4 class="f200">cook time: x</h4>
+       <h4 class="f200">total time: x</h4>
+     <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+     </div>
+    </div>
+  </div>
+  </div>
+   <div class= "rCard">
+      <img class ="rPic" src="../Assets/cheese.jpg" alt="rPic one">
+      <div class ="rMainText">
+        <div class="rMaintextTitle">
+        <h5>Vegan<h5>
+        <h3 >Some Bowl</h3>
+      </div>
+        <P class="rMTT">
+          orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+             deserunt mollit anim id est laborum
+       </p>
+       <div class="rBInfo">
+       <div class="rButton">
+         <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+       </div>
+       <div class= "rInfo">
+         <h4 class="f200">prep time: x</h4>
+         <h4 class="f200">cook time: x</h4>
+         <h4 class="f200">total time: x</h4>
+       <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+       </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <p class="rLink"> Klicken Sie hier um alle Rezpten zu sehen><p>
+
+  <!--Brot und Nachtishe-->
+  <h1 class="rSubtitle">Brot und Nachtishe</H1>
+    <div class ="rGrid">
+    <div class= "rCard">
+      <img class ="rPic" src="../Assets/MP.jpg" alt="rPic one">
+      <div class ="rMainText">
+        <div class="rMaintextTitle">
+        <h5>Vegan<h5>
+        <h3>Some Bowl</h3>
+      </div>
+        <P class="rMTT">
+          orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+             deserunt mollit anim id est laborum
+       </p>
+       <div class="rBInfo">
+       <div class="rButton">
+         <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+       </div>
+       <div class= "rInfo">
+         <h4 class="f200">prep time: x</h4>
+         <h4 class="f200">cook time: x</h4>
+         <h4 class="f200">total time: x</h4>
+       <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+       </div>
+      </div>
+    </div>
+    </div>
+    <div class= "rCard">
+      <img class ="rPic" src="../Assets/sosse.jpg" alt="rPic one">
+      <div class ="rMainText">
+        <div class="rMaintextTitle">
+        <h5>Vegan<h5>
+        <h3>Some Bowl</h3>
+      </div>
+        <P class="rMTT">
+          orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+             deserunt mollit anim id est laborum
+       </p>
+       <div class="rBInfo">
+       <div class="rButton">
+         <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+       </div>
+       <div class= "rInfo">
+         <h4 class="f200">prep time: x</h4>
+         <h4 class="f200">cook time: x</h4>
+         <h4 class="f200">total time: x</h4>
+       <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+       </div>
+      </div>
+    </div>
+    </div>
+     <div class= "rCard">
+        <img class ="rPic" src="../Assets/cheese.jpg" alt="rPic one">
+        <div class ="rMainText">
+          <div class="rMaintextTitle">
+          <h5>Vegan<h5>
+          <h3 >Some Bowl</h3>
+        </div>
+          <P class="rMTT">
+            orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+               deserunt mollit anim id est laborum
+         </p>
+         <div class="rBInfo">
+         <div class="rButton">
+           <button type="button" class="rButtonLabel"> Rezpte ansehen </Button>
+         </div>
+         <div class= "rInfo">
+           <h4 class="f200">prep time: x</h4>
+           <h4 class="f200">cook time: x</h4>
+           <h4 class="f200">total time: x</h4>
+         <img class="reviews" src="../Assets/5stars.png" alt="5 out of 5" height="25" width="100">
+         </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      <p class="rLink"> Klicken Sie hier um alle Rezpten zu sehen><p>
+    <hr class="sectionBreak">
+<!--Ende of Rezpten-->
+<footer>
+  <div class="footerText">
+    <h3 class="f200"> contact us | FAQs | EN</h3>
+  </div>
+</footer>
+
+
+  <!-- testmittel-->
+  <!--
+<div class="me"></div>
+<div class="me"></div><div class="me"></div>
+<div class="me"></div>
+<div class="me"></div>
+<div class="me"></div>
+<div class="me"></div>
+<div class="me"></div>
+<div class="me"></div>
+-->
+
+  </body>
+
+</html>
