@@ -9,6 +9,7 @@ header{
   left: 0;
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
   z-index: 5;
 
 }
@@ -220,13 +221,13 @@ start of the body*/
 background-color: rgba(6, 102,162,.0);
 border-radius: 10px;
 border-top-right-radius: 0;
-border-bottom-right-radius: 0;:
+border-bottom-right-radius: 0;
 }
 .carousel-control-prev{
   background-color: rgba(6, 102,162,.0);
   border-radius: 10px;
   border-top-left-radius: 0;
-  border-bottom-left-radius: 0;:
+  border-bottom-left-radius: 0;
 }
 .blur-false{
 animation: blur-out 1.8s forwards;
